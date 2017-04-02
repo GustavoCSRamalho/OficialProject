@@ -1,0 +1,73 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="css/index.css" type="text/css">
+<script src="jquery/jquery.js"></script>
+<script src="jquery/cadastro.js"></script>
+<head>
+<body>
+	<div id="header"></div>
+	<div class="botoesIC">
+		<div class="bCadastrar">
+			<button type="button">Cadastrar</button>
+		</div>
+		<div class="bLogin">
+			<button type="button">Login</button>
+		</div>
+	</div>
+
+
+
+	<div class="cadastro">
+
+		<form action="cadastrarProject" method="post">
+			<div>
+				<label>Cadastrar</label>
+			</div>
+
+
+			<div>
+				<label for="projectNameC">ProjectName:</label> <input type="text"
+					id="projectNameC" name ="projectNameC" autofocus required />
+			</div>
+			<div>
+				<label for="passwordC">Password:</label> <input type="password"
+					id="passwordC" name="passwordC" />
+			</div>
+			<div class="button">
+				<button type="submit">Create Project</button>
+			</div>
+
+
+		</form>
+
+	</div>
+
+	<div class="Login">
+
+		<form action="login">
+			<div>
+				<label>Login</label>
+			</div>
+
+
+			<div>
+				<label for="projectNameL">ProjectName:</label> <input type="text"
+					id="projectNameL" name="projectNameL" autofocus required />
+			</div>
+			<div>
+				<label for="passwordL">Password:</label> <input type="password"
+					id="passwordL" name="passwordL" />
+			</div>
+			<div class="button2">
+				<button type="submit">Enter</button>
+			</div>
+		</form>
+	</div>
+
+
+
+
+
+</body>
+</html>

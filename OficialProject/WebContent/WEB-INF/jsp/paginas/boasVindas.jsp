@@ -1,0 +1,1 @@
+Mensagem vinda da lógica: ${string} 
