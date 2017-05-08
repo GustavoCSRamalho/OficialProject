@@ -9,9 +9,9 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.AnnotationConfiguration;
 
+import br.com.project.beans.Project;
+import br.com.project.beans.bancoDeUsuarios;
 import br.com.project.cadastrar.infra.CriadorDeSession;
-import br.com.project.modelos.Project;
-import br.com.project.modelos.bancoDeUsuarios;
 
 public class projectCadastroDao extends PlataformaDAO{
 	private final Session session;

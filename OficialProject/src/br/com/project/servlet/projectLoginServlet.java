@@ -15,9 +15,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.hibernate.Session;
 
 import br.com.caelum.vraptor.Result;
+import br.com.project.beans.bancoDeUsuarios;
 import br.com.project.cadastrar.infra.CriadorDeSession;
 import br.com.project.dao.projectCadastroDao;
-import br.com.project.modelos.bancoDeUsuarios;
 
 @WebServlet("/login")
 public class projectLoginServlet extends HttpServlet {

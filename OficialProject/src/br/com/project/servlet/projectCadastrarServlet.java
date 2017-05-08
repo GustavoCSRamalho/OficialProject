@@ -9,9 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import br.com.project.beans.Project;
+import br.com.project.beans.bancoDeUsuarios;
 import br.com.project.dao.projectCadastroDao;
-import br.com.project.modelos.Project;
-import br.com.project.modelos.bancoDeUsuarios;
 
 
 

@@ -7,9 +7,9 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
+import br.com.project.beans.Project;
+import br.com.project.beans.bancoDeUsuarios;
 import br.com.project.dao.PlataformaDAO;
-import br.com.project.modelos.Project;
-import br.com.project.modelos.bancoDeUsuarios;
 
 public interface plataformaInterface {
 	public Project recuperaProjeto(String nameProject);

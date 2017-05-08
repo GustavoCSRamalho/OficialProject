@@ -1,4 +1,4 @@
-package br.com.project.controller;
+package br.com.project.controller.paginas;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -10,9 +10,9 @@ import br.com.caelum.vraptor.Get;
 import br.com.caelum.vraptor.Path;
 import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.Result;
+import br.com.project.beans.Project;
 import br.com.project.cadastrar.infra.CriadorDeSession;
 import br.com.project.dao.PlataformaDAO;
-import br.com.project.modelos.Project;
 import br.com.project.servlet.projectLoginServlet;
 
 @Resource

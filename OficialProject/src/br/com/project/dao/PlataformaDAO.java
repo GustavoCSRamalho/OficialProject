@@ -9,10 +9,10 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import br.com.caelum.vraptor.Resource;
+import br.com.project.beans.Project;
+import br.com.project.beans.bancoDeUsuarios;
 import br.com.project.cadastrar.infra.CriadorDeSession;
 import br.com.project.interfaces.plataformaInterface;
-import br.com.project.modelos.Project;
-import br.com.project.modelos.bancoDeUsuarios;
 import br.com.project.servlet.projectLoginServlet;
 
 public class PlataformaDAO implements plataformaInterface {

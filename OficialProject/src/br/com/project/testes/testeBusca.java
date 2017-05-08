@@ -7,10 +7,10 @@ import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
+import br.com.project.beans.Project;
+import br.com.project.beans.bancoDeUsuarios;
 import br.com.project.cadastrar.infra.CriadorDeSession;
 import br.com.project.dao.PlataformaDAO;
-import br.com.project.modelos.Project;
-import br.com.project.modelos.bancoDeUsuarios;
 import br.com.project.servlet.projectLoginServlet;
 
 public class testeBusca {

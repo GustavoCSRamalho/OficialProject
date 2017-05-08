@@ -1,4 +1,4 @@
-package br.com.project.modelos;
+package br.com.project.beans;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
